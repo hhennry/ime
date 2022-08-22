@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --yD758nTk: #423E3E;
+    --dBA764Hv: #8D8888;
+    --1k7Af94S: #D9E3E4;
+    --3Gp7Rg17: #ECF7F8;
+    --45Daf30Z: #B0B7B8;
+}
+
+._ime {
+    background: var(--yD758nTk);
+}
+
+._ime .header,
+._ime .footer {
+    display: flex;
+    justify-content: center;
+
+    background: var(--yD758nTk);
+    color: var(--1k7Af94S);
+    margin: 2px solid var(--dBA764Hv);
+
+    position: relative;
+    z-index: 1;
+}

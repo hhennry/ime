@@ -1,0 +1,31 @@
+._ime ._dJH1A029 {
+    background-image: url(../../assets/img/9yGhtHOe7t0h.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    inset: 0;
+
+    z-index: 0;
+
+    --tw-blur: blur(4px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert);
+}
+
+._ime ._5g3yHO54 h1 {
+    font: 800 1.7rem "Overpass", "Inter", Arial;
+    color: var(--3Gp7Rg17);
+}
+
+._ime ._5g3yHO54 h5 {
+    font: 600 .8rem "DM Sans", "Inter", Arial;
+    color: var(--45Daf30Z);
+}
+
+._ime ._7iOw23G6 {
+    background: var(--yD758nTk);
+    color: var(--3Gp7Rg17);
+}
