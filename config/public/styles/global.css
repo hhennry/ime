@@ -1,0 +1,97 @@
+/* Importing the fonts from Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
+@import url(./effects.css);
+
+/* A CSS framework. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Defining the font size and the colors. */
+:root {
+  /* Setting the default font size to 16px. */
+  font-size: 16px;
+
+  /* Fonts */
+  /* Defining the font size and the colors. */
+  --R154Avh2: 800 3.5rem/160% "Azonix", "Overpass", "Roboto";
+  --q3e9A9hd: 800 2.5rem/160% "Overpass", "DM Sans", "Roboto";
+  --J3Ue93ME: 700 1.9rem/160% "Overpass", "DM Sans", "Roboto";
+  --Q6051mOp: 700 1.5rem/160% "DM Sans", "Inter", "Roboto";
+  --NfLh52E0: 600 1.3rem/160% "DM Sans", "Inter", "Roboto";
+  --6D65FCOm: 600 1.16rem/160% "DM Sans", "Inter", "Roboto";
+  --va436CwH: 500 1.3rem/160% "DM Sans", "Inter", "Roboto";
+  --p12hzSB4: 500 1rem/130% "Inter", "Roboto";
+  --c3aZ2n4B: 500 0.85rem/130% "Inter", "Roboto";
+  --75wFiN8s: 400 0.7rem/130% "Inter", "Roboto";
+  /* Colors */
+  /* Defining the colors. */
+  --uA17j4A2: #242020;
+  --LiqC267z: #423e3e;
+  --OkT544a7: #b3b3b3;
+  --1zbIL28c: #f5f2f0;
+  --nG99zI24: #524d4d;
+  --fWF84064: #e7e7e7;
+  --1Ng5f9RD: #0b0d17;
+  --bL07f9x0: #080808;
+  --Rny5804l: #b0b7b8;
+  --8uHqQ6B7: #d9e3e4;
+  --uHof66k7: #ecf7f8;
+  --Oh674YEo: #eca256;
+  --mP0251m6: #b5020b;
+  --N68B17mQ: #8d8888;
+  --3iT67Q97: #e07d0b;
+}
+
+/* Preventing the user from selecting the text in the buttons, svg, img, and userSelectN. */
+.ime button,
+.ime svg,
+.ime img,
+.ime .userSelectN {
+  user-select: none;
+}
+
+/* Changing the color of the text when you select it. */
+*::selection {
+  background-color: var(--nG99zI24);
+  color: var(--fWF84064);
+}
+
+*::moz-selection {
+  background-color: var(--LiqC267z);
+  color: var(--Rny5804l);
+}
+
+/* Changing the scrollbar. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--LiqC267z) var(--Rny5804l);
+}
+
+*::-webkit-scrollbar {
+  width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--LiqC267z);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--Rny5804l);
+  border-radius: 1rem;
+  border: 0.35rem solid var(--LiqC267z);
+}
+
+/* Styles */
+
+._ime ._sobheader,
+._ime ._header {
+  background-color: var(--uA17j4A2);
+  border-bottom: 0.15rem solid var(--N68B17mQ);
+  color: var(--OkT544a7);
+}
+
+._ime ._sobheader span,
+._ime ._sobheader a {
+  font: var(--c3aZ2n4B);
+}

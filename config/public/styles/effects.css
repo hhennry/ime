@@ -1,0 +1,34 @@
+._ime ._ta1Z96OJ:hover {
+  transition: all 0.4s;
+  color: var(--3iT67Q97);
+}
+
+/* Creating a line under the text when you hover over it. */
+._ime ._ta1Z96OJ:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.0689rem;
+  bottom: -0.25rem;
+  left: 0;
+  background-color: var(--3iT67Q97);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* Making the line under the text visible when you hover over it. */
+._ime ._ta1Z96OJ:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* Making the border dashed when you click on the text. */
+._ime ._ta1Z96OJ:focus-visible {
+  border: .18rem dashed var(--3iT67Q97);
+  border-radius: .2rem;
+  outline: none;
+}
