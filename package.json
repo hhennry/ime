@@ -1,7 +1,7 @@
 {
-  "name": "biyografi",
+  "name": "ime",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
-    "@mui/material": "^5.10.1",
+    "@mui/material": "^5.10.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

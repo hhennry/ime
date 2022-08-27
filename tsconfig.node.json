@@ -1,3 +1,4 @@
+// Telling the compiler to use the vite.config.ts file as the entry point for the compilation.
 {
   "compilerOptions": {
     "composite": true,
