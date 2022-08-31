@@ -1,7 +1,14 @@
 ._ime ._SxdO120h {
-    background-color: var(--uA17j4A2);
+  background-color: var(--uA17j4A2);
 }
 
-._ime ._2P5gvv1z {
+@media (min-width: 649px) {
+  ._ime ._2P5gvv1z {
     border-right: 0.15rem solid var(--N68B17mQ);
+  }
+}
+
+._ime ._0192dqYm {
+  font: 600 1.2rem "Overpass", "DM Sans", "Roboto";
+  position: relative;
 }

@@ -1,11 +1,12 @@
 ._ime ._ta1Z96OJ:hover,
 ._ime ._ta1Z96OJ:focus-visible {
-  transition: all 0.4s;
+  transition: all .4s;
   color: var(--3iT67Q97);
 }
 
 /* Creating a line under the text when you hover over it. */
-._ime ._ta1Z96OJ:before {
+._ime ._ta1Z96OJ::before,
+._ime ._0192dqYm::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -21,7 +22,8 @@
 }
 
 /* Making the line under the text visible when you hover over it. */
-._ime ._ta1Z96OJ:hover:before {
+._ime ._ta1Z96OJ:hover::before,
+._ime ._0192dqYm:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -29,7 +31,8 @@
 
 /* Making the border dashed when you click on the text. */
 ._ime ._ta1Z96OJ:focus-visible,
-._ime ._qB403Pbe:focus-visible {
+._ime ._qB403Pbe:focus-visible,
+._ime ._0192dqYm:focus-visible {
   transition: all .4s;
 
   border: .18rem dashed var(--3iT67Q97);
@@ -38,7 +41,9 @@
 }
 
 ._ime ._qB403Pbe:hover,
-._ime ._qB403Pbe:focus-visible {
+._ime ._0192dqYm:hover,
+._ime ._qB403Pbe:focus-visible,
+._ime ._0192dqYm:focus-visible {
   transition: all .4s;
   color: var(--3iT67Q97) !important;
 }
