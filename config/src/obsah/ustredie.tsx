@@ -1,13 +1,14 @@
 /* Importing the material-ui components. */
-import { TextAlignRight, X } from "phosphor-react";
 import React from "react";
-import { Button, Popover, PopoverDisclosure, usePopoverState } from "reakit";
+import { TextAlignRight, X } from "phosphor-react";
+import { Button, Popover, PopoverDisclosure, usePopoverState } from "reakit/";
 import { C07q1 } from "../content/22xNb7vX";
+import { Mu971 } from "../content/0B67aE1k";
+import { L61c0 } from "../content/vM6a5v0i/7v32AXx8";
 
 const varstrany = {
   /* Creating an object with properties that are objects. */
   INIT: {
-    id: "_init",
     title: "Inicio",
     locate: {
       url: "https://emanuelalvorada.com.br/",
@@ -16,7 +17,6 @@ const varstrany = {
     },
   },
   INST: {
-    id: "_inst",
     title: "Institucional",
     locate: {
       url: "https://emanuelalvorada.com.br/sobre/",
@@ -25,7 +25,6 @@ const varstrany = {
     },
   },
   MINIST: {
-    id: "_minist",
     title: "Ministerios",
     locate: {
       url: "https://emanuelalvorada.com.br/ministerios/",
@@ -34,7 +33,6 @@ const varstrany = {
     },
   },
   CONTRIBUA: {
-    id: "_contriua",
     title: "Contribua",
     locate: {
       url: "https://emanuelalvorada.com.br/apoiar/",
@@ -44,25 +42,28 @@ const varstrany = {
   },
 };
 
-export function K3m41() {
+export function K3m41(): JSX.Element {
   const popover = usePopoverState();
   return (
-    <section className="_header flex items-center justify-between px-7">
+    <section className="_header flex items-center mb:justify-between xs:justify-start px-7">
       <div className="_2P5gvv1z py-4 pr-7">
-        <img loading="lazy"
+        <img
           className="w-24"
           src="../config/public/brand/ime/logo.png"
           alt="Logo da Igreja Missionaria Emanuel"
         />
       </div>
-      <section>
-        <div>
-          <nav>
-            <a title="" target="" href=""></a>
+      <section className="w-screen">
+        <div className="hidden xs:flex justify-between w-full items-center gap-4">
+          <nav className="flex gap-5 font-bold ml-4">
+            <a className="_0192dqYm" title="Inicio do site daIgreja Emanuel" target="_self" href="https://emanuelalvorada.com.br/">Inicio</a>
             <C07q1 />
             <Mu971 />
-            <a title="" target="" href=""></a>
+            <a className="_0192dqYm" title="Contribuir para a Igreja Emanuel fazer a obra de Deus" target="_self" href="https://emanuelalvorada.com.br/apoiar/">Contribua</a>
           </nav>
+          <div>
+            <L61c0 />
+          </div>
         </div>
         <div className="xs:hidden">
           <Popover className="fixed inset-0 transform-none" {...popover}>
